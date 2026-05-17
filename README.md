@@ -1,71 +1,46 @@
-# Portfolio — Alex Chen
+# Rishi Kashyap Portfolio
 
-Minimal futuristic personal portfolio built with React, Tailwind CSS, and Framer Motion.
+Modern animated personal portfolio built using React, Vite, Tailwind CSS, and Framer Motion.
 
-## Stack
+## About
 
-- **React 18** — UI framework
-- **Vite** — Build tool
-- **Tailwind CSS** — Utility-first styling
-- **Framer Motion** — Animations
-- **Syne + DM Sans** — Typography
+This portfolio showcases my learning journey in frontend development, UI/UX design, creative web experiences, and video editing.
 
-## File Structure
+Currently exploring:
 
-```
-portfolio/
-├── index.html              # Entry HTML + SEO meta
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-├── vercel.json             # SPA routing + cache headers
-├── package.json
-└── src/
-    ├── main.jsx            # React root
-    ├── index.css           # Tailwind directives + global styles
-    └── App.jsx             # Full portfolio (all sections)
-```
+* React
+* Tailwind CSS
+* JavaScript
+* Framer Motion
+* UI Design
+* Modern Web Development
 
-## Setup
+## Tech Stack
 
-```bash
-# 1. Install dependencies
-npm install
+* React
+* Vite
+* Tailwind CSS
+* Framer Motion
 
-# 2. Start dev server
-npm run dev
+## Features
 
-# 3. Build for production
-npm run build
+* Responsive Design
+* Smooth Animations
+* Glassmorphism UI
+* Interactive Sections
+* Modern Dark Theme
+* Mobile Friendly
 
-# 4. Preview production build locally
-npm run preview
-```
+## Live Website
 
-## Vercel Deployment
+(Add your Vercel link here)
 
-### Option A — CLI (fastest)
-```bash
-npm i -g vercel
-vercel
-# Follow prompts: link project, set framework to "Vite"
-vercel --prod
-```
+## Author
 
-### Option B — GitHub Integration
-1. Push repo to GitHub
-2. Go to [vercel.com/new](https://vercel.com/new)
-3. Import your repository
-4. Framework preset: **Vite** (auto-detected)
-5. Build command: `npm run build`
-6. Output directory: `dist`
-7. Click **Deploy**
+Rishi Kashyap
 
-## Customization
+GitHub:
+https://github.com/rishi-codes24
 
-Edit the data constants at the top of `src/App.jsx`:
-- `PROJECTS` — your projects
-- `EXPERIENCE` — work history
-- `SKILLS` — tech stack groups
-
-Replace `alex.dev`, `alex@chen.dev`, and "Alex Chen" with your own info.
+LinkedIn:
+https://www.linkedin.com/in/rishi-kashyap-68617030a/
